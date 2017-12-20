@@ -1,4 +1,3 @@
-// 测试点3错误
 
 #include<stdio.h>
 #include<string.h>
@@ -7,7 +6,7 @@ int main()
     int n,i,j = 0,k,count = 0,lena;
     char a[100],b[100][100];
 
-    fgets(a,81,stdin);
+    fgets(a,100,stdin);
     lena = strlen(a);
     // printf("lena=%d",lena);
     for(i = 0; i < lena; i++)
